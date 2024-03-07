@@ -3,11 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePageComponent from './Components/Pages/HomePageComponent';
 import JacoozziPageComponent from './Components/Pages/JacoozziPageComponent';
+import NavBarComponent from './Components/NavBarComponent';
 
 function App() {
   return (
     <BrowserRouter>
     {/* Wrapping our app in browser Router enables Routing */}
+    <NavBarComponent />
 
     <Routes>
 
