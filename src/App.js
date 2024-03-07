@@ -11,6 +11,7 @@ function App() {
     <Routes>
 
       {/* Route defines our routes to different pages */}
+      {/* '/' defines our homepage or the default rendering page */}
       <Route path='/' element={<HomePageComponent />}/>
     </Routes>
 
